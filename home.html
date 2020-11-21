@@ -7,17 +7,14 @@
         <meta name= "description" content="This is my website">
     </head>
     <body>
-        <h1>
-            Hello!
-        </h1>
-        <a href="http://google.com" target= "_blank">Go to google.com</a>
-        <img src = "img/Logo_Eng_Mint.png"/>
-        <pre>hello!</pre>
-        <p>My name is <abbr title="Lee jihoon">LEE</abbr></p>
-        <p>I like to live in <strong>South korea</strong></p>
-        <audio
-        controls
-        autoplay
-        src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+        <form>
+            <input type="file" accept="image/*, .pdf"/>
+            <input required placeholder="Name" type="text" />
+            <input required placeholder="Last Name" type="text" />
+            <input required placeholder="Username" type="text" />
+            <input required placeholder="Password" minlength="10" type="password" />
+            <input type="submit" value="Creat Account" />
+
+        </form>
     </body>
 </html>
