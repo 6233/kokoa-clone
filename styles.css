@@ -1,3 +1,36 @@
 body {
-  background-color: midnightblue;
+  height : 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#first {
+  background-color: #F5DFB3;
+  height : 200px;
+  width : 200px;
+  border : 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#second {
+  background-color: #048080;
+  height : 50px;
+  width : 50px;
+  border: 3px solid white;
+}
+#third {
+  background-color: #048080;
+  height : 50px;
+  width : 190px;
+  border: 3px dashed white;
+}
+#fourth {
+  background-color: #048080;
+  height : 50px;
+  width : 50px;
+  border: 3px solid white;
 }
