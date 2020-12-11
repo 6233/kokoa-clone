@@ -3,15 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>The Jihoon Times</title>
     <link href="style.css" rel = "stylesheet"/>
+    <style>
+        body {
+          display: flex;
+          height: 100vh;
+          background-color: white;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        div {
+          background-color: teal;
+          width: 200px;
+          height : 200px;
+        }
+        @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+          div {
+            background-color: tomato;
+          }
+        }
+        span {
+          font-size: 30px;
+        }
+        @media screen and (orientation: landscape) {
+          span {
+            display: none;
+          }
+        }
+    </style>
   </head>
   <body>
-    <div id ="first">
-      <div id= "second"></div>
-      
-      <div id = "third"></div>
-      <div id = "fourth"></div>
+    <div>
     </div>
+    <span>please flip your phone :(</span>
   </body>
 </html>
